@@ -1,9 +1,178 @@
-body{
-    text-align:center;
-    background-color:skyblue;
-    }
-    p{font-size:50px;}
-    img{
-    width:1000px
-    }
-  
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+
+
+
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#000000 0%, #171fbf 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#000000 0%, #171fbf 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index:9;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+
+    position: fixed;
+    top: 10px;
+    right: 30px z-index: 10;
+    cursor: pointer
+}
+
+.links {
+    float: left;
+    color:white;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right:9px;
+ font-family: 'Nova Square', cursive;
+    font-size: 25px;
+
+}
+
+.links:hover {
+    background-color: darkgoldenrod;
+
+}
+}
+
+}
+
+
+#myCarousel {
+    background-color: red;
+}
+
+#myCarousel img {
+    height: 350px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
